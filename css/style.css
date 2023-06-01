@@ -67,3 +67,7 @@ footer ul li:hover a {
   background-color: #fff;
   color: #000;
 }
+
+footer .ms-footer-top p a {
+  color: #1abc9c;
+}
