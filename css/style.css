@@ -43,7 +43,14 @@ Footer
 footer ul li a {
   width: 3.125rem;
   height: 3.125rem;
+  color: #fff;
   text-align: center;
   line-height: 3.125rem;
   cursor: pointer;
+  transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+footer ul li:hover a {
+  background-color: #fff;
+  color: #000;
 }
