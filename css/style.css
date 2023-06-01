@@ -33,8 +33,21 @@ footer .ms-footer-top {
 main 
 -----------*/
 section#hero,
-section#about {
+section#about,
+section#contact form .ms-btn-submit {
   background-color: #1abc9c;
+}
+
+section#contact form textarea {
+  min-height: 12.5rem;
+}
+
+section#contact form .ms-btn-submit {
+  color: #fff;
+}
+
+section#contact form .ms-btn-submit:hover {
+  background-color: #148d75;
 }
 
 /*----------
