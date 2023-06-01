@@ -1,1 +1,37 @@
 @import url(./debug.css);
+:root {
+  --bg-blue-dark: #2c3e50;
+  --bg-blue-light: #3a546d;
+}
+
+/*----------
+Utilitis
+-----------*/
+
+.my-container {
+  width: 80%;
+  margin-inline: auto;
+}
+
+/*----------
+header
+-----------*/
+header nav,
+footer .ms-footer-bottom {
+  background-color: var(--bg-blue-dark);
+}
+
+footer .ms-footer-top {
+  background-color: var(--bg-blue-light);
+}
+
+/*----------
+Footer
+-----------*/
+footer ul li a {
+  width: 3.125rem;
+  height: 3.125rem;
+  text-align: center;
+  line-height: 3.125rem;
+  cursor: pointer;
+}
