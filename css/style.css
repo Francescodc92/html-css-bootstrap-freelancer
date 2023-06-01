@@ -32,7 +32,8 @@ footer .ms-footer-top {
 /*----------
 main 
 -----------*/
-section#hero {
+section#hero,
+section#about {
   background-color: #1abc9c;
 }
 
